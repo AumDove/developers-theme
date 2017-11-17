@@ -1,0 +1,28 @@
+/* # Footer Widgets
+---------------------------------------------------------------------------------------------------- */
+.footer-widgets {
+	background-color: $footer-widgets__background-color;
+	clear: both;
+	font-size: 18px;
+	font-size: 1.8rem;
+	padding: 60px 0;
+
+    &-1,
+    &-2,
+    &-3 {
+        width: 380px;
+    }
+
+    &-1 {
+        margin-right: 70px;
+    }
+
+    &-1,
+    &-2 {
+        float: left;
+    }
+
+    &-3 {
+        float: right;
+    }
+}
