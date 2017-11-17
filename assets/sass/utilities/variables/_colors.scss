@@ -11,7 +11,6 @@ $body__background-color: #eee;
 //
 // Navigation Colors
 //=========================
-
 $nav__link-color: $black;
 $nav__hover-color: #c3251d;
 $submenu__border-color: #eee;
@@ -42,14 +41,13 @@ $archive-pagination__hover-color: #$white;
 //
 // Header
 //==========================
-
+$site-header__background-color: $white;
 $site-title__link-color: #333;
 
 //
-// Navigation Colors
+// Footer
 //=========================
-
-$site-header__background-color: $white;
+$site-footer__border-color: #eee;
 $site-footer__background-color: $white;
 $footer-widgets__background-color: $white;
 
