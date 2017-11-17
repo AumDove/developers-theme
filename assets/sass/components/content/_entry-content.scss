@@ -1,12 +1,8 @@
-/* ## Entries
+/* ## Entry Content
 --------------------------------------------- */
 
-.entry {
-	background-color: #fff;
-	margin-bottom: 40px;
-	padding: 70px 80px;
-}
 
+.entry, //? Not sure if this is correct
 .entry-content{
     ol, ul {
         margin-bottom: 28px;
@@ -27,7 +23,7 @@
     }
 
     code {
-        background-color: #333;
-        color: #eee;
+        background-color: $entry-content__background-color;
+        color: $entry-content__color;
     }
 }
