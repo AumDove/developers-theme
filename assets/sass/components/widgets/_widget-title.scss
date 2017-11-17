@@ -1,11 +1,14 @@
 
+//
+// Widget Title Styles
+//========================
+
 .sidebar .widget-title a {
-    color: #333;
+    color: $widget-title__link-color;
     text-decoration: none;
 }
 
 .widget-title {
-	font-size: 18px;
-	font-size: 1.8rem;
+	font-size: rem( $widget-title__font-size );
     margin-bottom: 20px;
 }
