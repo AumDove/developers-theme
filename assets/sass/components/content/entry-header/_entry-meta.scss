@@ -6,7 +6,7 @@
 .entry-header {
     .entry-meta {
         margin-bottom: 24px;
-        font-size: rem( $header__meta--font-size );
+        @include rem( font-size, $header__meta--font-size );
     }
 }
 

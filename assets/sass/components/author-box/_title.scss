@@ -2,5 +2,5 @@
 ================================*/
 
 .author-box-title {
-	font-size: rem( $author-box__title--font-size );
+	@include rem( font-size, $author-box__title--font-size );
 }

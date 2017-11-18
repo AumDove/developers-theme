@@ -19,9 +19,10 @@
         min-height: $site-title--min-height;
         width: 100%;
 
-    .site-description,
-    .site-title {
-        display: block;
-        text-indent: -9999px;
+        .site-description,
+        .site-title {
+            display: block;
+            text-indent: -9999px;
+        }
     }
 }

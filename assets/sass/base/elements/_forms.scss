@@ -7,7 +7,7 @@ textarea {
 	background-color: $input--background-color;
 	border: 1px solid $input--border-color;
 	color: $input--color;
-	font-size: rem( $input--font-size );
+	@include rem( font-size, $input--font-size );
 	font-weight: 400;
 	padding: 16px;
 	width: 100%;
@@ -26,12 +26,12 @@ input[type="radio"] {
 }
 
 ::-moz-placeholder {
-	color: $dark-gray;
+	color: $gray--dark;
 	opacity: 1;
 }
 
 ::-webkit-input-placeholder {
-	color: $dark-gray;
+	color: $gray--dark;
 }
 
 button,
@@ -43,7 +43,7 @@ input[type="submit"],
 	border: 0;
 	color:  $white;
 	cursor: pointer;
-	font-size: rem( $form-button--font-size );
+	@include rem( font-size, $form-button--font-size );
 	font-weight: 700;
 	padding: 16px 24px;
 	text-decoration: none;
@@ -93,9 +93,9 @@ input[type="submit"].small {
 	input[type="reset"]:disabled:hover,
 	input[type="submit"]:disabled,
 	input[type="submit"]:disabled:hover {
-		background-color: $form-button--disabled-background-colore;
+		background-color: $form-button--background-color--disabled;
 		border-width: 0;
-		color: $form-button--disabled-color;
+		color: $form-button--color--disabled;
 		cursor: not-allowed;
 	}
 }

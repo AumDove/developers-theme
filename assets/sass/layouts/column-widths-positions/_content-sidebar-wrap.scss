@@ -1,25 +1,18 @@
 /* ### Wrapping div for .content and .sidebar-primary */
-.content-sidebar-wrap{
+
+.content-sidebar-wrap {
 	.content-sidebar-sidebar &,
 	.sidebar-content-sidebar &,
 	.sidebar-sidebar-content & {
 		width: $content-sidebar__wrap--width;
 
 		@media only screen and (max-width: $larger-screen) {
-			.content-sidebar-sidebar  &,
-			.sidebar-content-sidebar  &,
-			.sidebar-sidebar-content  & {
-				width: $content-sidebar__wrap--larger-screen--width;
-			}
+			width: $content-sidebar__wrap--larger-screen--width;
 		}
 
 		@media only screen and (max-width: $large-screen) {
-			.content-sidebar-sidebar &,
-			.sidebar-content-sidebar &,
-			.sidebar-sidebar-content & {
-				width: $content-sidebar__wrap--large-screen--width;
-			}
-
+			width: $content-sidebar__wrap--large-screen--width;
+		}
 	}
 
 	.content-sidebar-sidebar & {
@@ -31,3 +24,4 @@
 		float: right;
 	}
 }
+

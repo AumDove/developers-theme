@@ -7,7 +7,7 @@
 	max-width: $max-width;
 
 	@media only screen and (max-width: $larger-screen) {
-		$max-width--larger-screen;
+		max-width: $max-width--larger-screen;
 	}
 
 	@media only screen and (max-width: $large-screen) {
