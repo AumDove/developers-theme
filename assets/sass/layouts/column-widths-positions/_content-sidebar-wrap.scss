@@ -3,13 +3,13 @@
 	.content-sidebar-sidebar &,
 	.sidebar-content-sidebar &,
 	.sidebar-sidebar-content & {
-		width: $content-sidebar__wrap__width;
+		width: $content-sidebar__wrap--width;
 
 		@media only screen and (max-width: $larger-screen) {
 			.content-sidebar-sidebar  &,
 			.sidebar-content-sidebar  &,
 			.sidebar-sidebar-content  & {
-				width: $content-sidebar__wrap__larger-screen__width;
+				width: $content-sidebar__wrap--larger-screen--width;
 			}
 		}
 
@@ -17,7 +17,7 @@
 			.content-sidebar-sidebar &,
 			.sidebar-content-sidebar &,
 			.sidebar-sidebar-content & {
-				width: $content-sidebar__wrap__large-screen__width;
+				width: $content-sidebar__wrap--large-screen--width;
 			}
 
 	}

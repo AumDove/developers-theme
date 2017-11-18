@@ -61,18 +61,18 @@
         .nav-primary,
         nav button:focus,
         .menu-toggle:focus {
-            background-color: $js-nav__background-color;
+            background-color: $js-nav--background-color;
         }
 
         nav button:hover,
         .menu-toggle:hover,
         .nav-primary {
-            color: $js-nav__hover-color;
+            color: $js-nav--hover-color;
         }
 
         nav button:focus,
         .menu-toggle:focus {
-            color: $js-nav__focus-color;
+            color: $js-nav--focus-color;
         }
     }
 }

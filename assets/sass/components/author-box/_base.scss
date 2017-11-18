@@ -3,8 +3,8 @@
 //=========================
 
 .author-box {
-	background-color: $author-box__background-color;
-	font-size: rem( $author-box__font-size );
+	background-color: $author-box--background-color;
+	font-size: rem( $author-box--font-size );
 	margin-bottom: 40px;
     padding: 60px;
 
@@ -19,5 +19,5 @@
 }
 
 .author-box-title {
-    font-size: $author-box__title__font-size;
+    font-size: $author-box__title--font-size;
 }

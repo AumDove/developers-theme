@@ -1,9 +1,9 @@
 /* # Footer Widgets
 ---------------------------------------------------------------------------------------------------- */
 .footer-widgets {
-	background-color: $footer-widgets__background-color;
+	background-color: $footer-widgets--background-color;
 	clear: both;
-	font-size: rem( $footer-widgets__font-size );
+	font-size: rem( $footer-widgets--font-size );
 	padding: 60px 0;
 
     &-1,

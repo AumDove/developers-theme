@@ -5,25 +5,25 @@
 	width: $content-width;
 
 	@media only screen and (max-width: $larger-screen) {
-		width: $content__larger-screen__width;
+		width: $content--larger-screen--width;
 	}
 
 	@media only screen and (max-width: $large-screen) {
 		.site-header .widget-area {
-			width: $content__large-screen__width;
+			width: $content--large-screen--width;
 		}
 	}
 
 	.content-sidebar-sidebar &,
 	.sidebar-content-sidebar &,
 	.sidebar-sidebar-content & {
-		width: $content-both-sidebars__width;
+		width: $content-both-sidebars--width;
 
 		@media only screen and (max-width: $larger-screen) {
-			width: $content-both-sidebars__larger-screen__width ;
+			width: $content-both-sidebars--larger-screen--width ;
 		}
 		@media only screen and (max-width: $large-screen) {
-				width: $content-both-sidebars__large-screen__width;
+				width: $content-both-sidebars--large-screen--width;
 		}
 	}
 

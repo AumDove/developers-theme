@@ -1,106 +1,106 @@
 
 // Common Fonts
 
-
-$font-family__source-sans-pro: 'Source Sans Pro', sans-serif;
+$font-family--source-sans-pro: 'Source Sans Pro', sans-serif;
 
 
 // Base Typography
+$html--font-size: 62.5%; // 10px browser default
 
-$base__font-family: $font-family__source-sans-pro;
-$base__font-size: 20;
-$base__line-height: 1.2;
+$base--font-family: $font-family--source-sans-pro;
+$base--font-size: 20;
+$base--line-height: 1.2;
 
-$base-div__font-size: 20;
-$body-div__small-screen__font-size: 18;
-$body-only__small-screen__font-size: 18;
+$base-div--font-size: 20;
+$body-div--font-size--small-screen: 18;
+$body-only--font-size--small-screen: 18;
 
 
-$html__font-size: 62.5%; // 10px browser default
+
 // Headings
 
-$headings__font-family: $font-family__source-sans-pro;
-$headings__line-height: 1.2;
+$headings--font-family: $font-family--source-sans-pro;
+$headings--line-height: 1.2;
 
-$h1__font-size: 36;
-$h2__font-size: 30;
-$h3__font-size: 24;
-$h4__font-size: 20;
-$h5__font-size: 18;
-$h6__font-size: 16;
+$h1--font-size: 36;
+$h2--font-size: 30;
+$h3--font-size: 24;
+$h4--font-size: 20;
+$h5--font-size: 18;
+$h6--font-size: 16;
 
 
 //
 // Navigation
 //=========================
-$nav__font-size: 16;
-$submenu__font-size: 14;
-$primary-nav__font-size: 14;
-$archive-pagination__font-size: 16;
+$nav--font-size: 16;
+$submenu--font-size: 14;
+$primary-nav--font-size: 14;
+$archive-pagination--font-size: 16;
 
 
 //
 // Elements
 //==========================
 
-$blockquote__font-size: 30;
-$input__font-size: 18;
-$form-button__font-size: 16;
+$blockquote--font-size: 30;
+$input--font-size: 18;
+$form-button--font-size: 16;
 
 //
 // Site Header
 //========================
 
-$site-title__font-size: 30;
-$site-description__font-size: 16;
+$site-title--font-size: 30;
+$site-description--font-size: 16;
 
 //
 // Site Footer
 //========================
 
-$site-footer__font-size: 16;
-$footer-widgets__font-size: 18;
+$site-footer--font-size: 16;
+$footer-widgets--font-size: 18;
 
 //
 // Entry Content
 //========================
 
-$entry-meta__font-size: 16;
-$entry-meta__header__font-size: 16;
-$entry-meta__footer__font-size: 16;
+$entry-meta--font-size: 16;
+$header__meta--font-size: 16;
+$footer__meta--font-size: 16;
 
-$entry-title__font-size: 36;
+$entry-title--font-size: 36;
 
 //
 // Comments
 //=========================
 
-$comments__font-size: 16;
+$comments--font-size: 16;
 
 //
 // Widgets
 //=========================
 
-$widget-title__font-size: 18;
-$featured-content__entry-title__font-size: 20;
+$widget-title--font-size: 18;
+$featured-content__entry-title--font-size: 20;
 
 //
 // Plugins
 //=========================
 
-$enews-input__font-size: 16;
+$enews__input--font-size: 16;
 
 //
 // General Components
 //=========================
 
-$breadcrumb__font-size: 16;
+$breadcrumb--font-size: 16;
 
-$author-box__font-size: 18;
-$author-box__title__font-size: 20;
-$archive-desc__title__font-size: 20;
+$author-box--font-size: 18;
+$author-box__title--font-size: 20;
+$archive-desc__title--font-size: 20;
 
-$after-entry__font-size: 18;
-$archive-description__font-size: 18;
-$archive__title__font-size: 20;
+$after-entry--font-size: 18;
+$archive-description--font-size: 18;
+$archive__title--font-size: 20;
 

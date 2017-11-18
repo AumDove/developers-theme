@@ -16,13 +16,13 @@ textarea:focus,
 }
 
 a {
-	color: $link__color;
+	color: $link--color;
 	text-decoration: underline;
 }
 
 a:focus,
 a:hover {
-	color: $link__hover-color;
+	color: $link--hover-color;
 	text-decoration: none;
 }
 

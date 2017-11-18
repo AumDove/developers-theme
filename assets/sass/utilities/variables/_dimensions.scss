@@ -9,40 +9,40 @@ $gutter: 40px;
 // Max Widths
 $max-width: $base-width + px;
 
-$max-width__larger-screen: 1140px;
-$max-width__large-screen: 960px;
-$max-width__medium-screen: 800px;
+$max-width--larger-screen: 1140px;
+$max-width--large-screen: 960px;
+$max-width--medium-screen: 800px;
 
-$landing-page__max-width__medium-screen: 800px;
+$landing-page__max-width--medium-screen: 800px;
 
 // Content Widths
 
-$content__width: 880px;
-// $content__width: $base-width * 0.6875 + px;
-$content__larger-screen__width:800px;
-$content__large-screen__width:620px;
-$content-both-sidebars__width: 660px;
-$content-both-sidebars__larger-screen__width: 580px;
-$content-both-sidebars__large-screen__width: 400px;
+$content--width: 880px;
+// $content--width: $base-width * 0.6875 + px;
+$content--larger-screen--width:800px;
+$content--large-screen--width:620px;
+$content-both-sidebars--width: 660px;
+$content-both-sidebars--larger-screen--width: 580px;
+$content-both-sidebars--large-screen--width: 400px;
 
-$primary-sidebar__width: 360px;
-$primary-sidebar__larger-screen__width: 300px;
-$secondary-sidebar__width: 180px;
-// $primary-sidebar__width: $max-width - $content__width - $gutter;
-// $primary-sidebar__width: $base-width * 0.28125 + px;
+$primary-sidebar--width: 360px;
+$primary-sidebar--larger-screen--width: 300px;
+$secondary-sidebar--width: 180px;
+// $primary-sidebar--width: $max-width - $content--width - $gutter;
+// $primary-sidebar--width: $base-width * 0.28125 + px;
 
-$content-sidebar__wrap__width: 1060px;
-$content-sidebar__wrap__larger-screen__width: 920px;
-$content-sidebar__wrap__large-screen__width: 740px;
+$content-sidebar__wrap--width: 1060px;
+$content-sidebar__wrap--larger-screen--width: 920px;
+$content-sidebar__wrap--large-screen--width: 740px;
 
 // Header Module Widths
-$title-area__width: 300px;
-$site-title__min-height: 80px;
-$header-right__width: 800px;
-$header-right__laptop-width: 620px;
+$title-area--width: 300px;
+$site-title--min-height: 80px;
+$header-right--width: 800px;
+$header-right--laptop-width: 620px;
 
 // Footer Module Widths
-$footer-widgets__width: 380px;
-$footer-widgets__width-: 380px;
+$footer-widgets--width: 380px;
+$footer-widgets--width-: 380px;
 
 

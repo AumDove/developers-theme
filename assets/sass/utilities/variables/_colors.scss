@@ -1,117 +1,139 @@
+
+//
+// Base Colors
+//=========================
+
+
 $white: #fff;
+$white--almost: #eee;
 $black: #000;
 
-$base__color: #333;
+$gray--dark: #333;
+$gray--medium: #999;
+$gray--light: #777;
+$gray--most-light: #ddd;
 
-$link__color: #c3251d;
-$link__hover-color: #333;
+$primary--red: #c3251d;
 
-$body__background-color: #eee;
+$base--color: $gray--dark;
+
+$link--color: $primary--red;
+$link--hover-color: $gray--dark;
+
+$body--background-color: $white--almost;
+
+
+//
+// Color Configuration
+//=========================
 
 //
 // Navigation
-//=========================
-$nav__link-color: $black;
-$nav__hover-color: #c3251d;
-$submenu__border-color: #eee;
+
+$nav--link-color: $black;
+$nav--hover-color: $primary--red;
+$submenu--border-color: $white--almost;
 $submenu__link-background-color: $white;
 
-$primary-nav__background-color: $white;
-$primary-nav__border-color: #eee;
-$primary-nav__link-color: $nav__link-color;
+$primary-nav--background-color: $white;
+$primary-nav--border-color: $white--almost;
+$primary-nav--link-color: $nav--link-color;
 
-$sec-nav__background-color: $white;
-$sec-nav__border-color: #eee;
-$sec-nav__link-color: $nav__link-color;
+$sec-nav--background-color: $white;
+$sec-nav--border-color: $white--almost;
+$sec-nav--link-color: $nav--link-color;
 
 
-$js-nav__background-color: $white;
-$js-nav__hover-color: $black;
-$js-nav__focus-color: #c3251d;
+$js-nav--background-color: $white;
+$js-nav--hover-color: $black;
+$js-nav--focus-color: $primary--red;
 
-$nav-toggle__background-color: $white;
-$nav-toggle__color: #333;
+$nav-toggle--background-color: $white;
+$nav-toggle--color: $gray--dark;
 
-$archive-pagination__background-color: $white;
-$archive-pagination__color: #333;
-$archive-pagination__hover-background-color: #c3251d;
-$archive-pagination__hover-color: #$white;
+$archive-pagination--background-color: $white;
+$archive-pagination--color: $gray--dark;
+$archive-pagination--hover-background-color: $primary--red;
+$archive-pagination--hover-color: #$white;
 
 //
 // Elements
-//==========================
-$base__body__background-color: #eee;
-$base__body__color: #333;
 
+$base__body--background-color: $white--almost;
+$base__body--color: $gray--dark;
 
+//
 // Elements -- Forms
-$input__background-color: #fff;
-$input__border-color: #ddd;
-$input__color: #333;
-$input__focus: #999;
-$form-button__background-color:#333;
-$form-button__hover-focus__background-color
-: #c3251d;
-$form-button__color: $white;
-$form-button__hover-focus__color: $white;
-$form-button__disabled-background-color: #eee;
-$form-button__disabled-color: #777;
+$input--background-color: $white;
+$input--border-color: $gray--most-light;
+$input--color: $gray--dark;
+$input--focus: $gray--medium;
+$form-button--background-color: $gray--dark;
+$form-button--hover-focus--background-color
+: $primary--red;
+$form-button--color: $white;
+$form-button--hover-focus--color: $white;
+$form-button--background-color--disabled: $white--almost;
+$form-button--color--disabled: $gray--light;
 
 //
 // Header
-//==========================
-$site-header__background-color: $white;
-$site-title__link-color: #333;
+
+$site-header--background-color: $white;
+$site-title--link-color: $gray--dark;
 
 //
 // Footer
-//=========================
-$site-footer__border-color: #eee;
-$site-footer__background-color: $white;
-$footer-widgets__background-color: $white;
+
+$site-footer--border-color: $white--almost;
+$site-footer--background-color: $white;
+$footer-widgets--background-color: $white;
 
 
 //
 // Entry Content
-//=========================
 
-$entry__background-color: #fff;
-$entry-footer__meta__border-color: #eee;
-$entry-title__link-color: #333;
-$entry-title__hover-color: #c3251d;
-$entry-content__code__background-color: #333;
-$entry-content__code__color: #eee;
+
+$entry--background-color: $white;
+
+$entry-title--link-color: $gray--dark;
+$entry-title--hover-color: $primary--red;
+
+$entry-content__code--background-color: $gray--dark;
+$entry-content__code--color: $white--almost;
+
+$entry-footer__meta--border-color: $white--almost;
 
 //
 // Comments
-//=========================
 
-$comment__background-color: $white;
+
+$comment--background-color: $white;
 
 
 //
 // Widgets
-//=========================
 
-$widget-title__link-color: #333;
+
+$widget-title--link-color: $gray--dark;
 
 //
 // Plugins
-//=========================
 
-$enews__background-color: #333;
-$enews-title__color: #fff;
-$enews-input__border-color: #333;
-$enews-input__background-color: #c3251d;
-$enews-input__color: #fff;
-$enews-input-focus__background-color: #fff;
-$enews-input-focus__color: #333;
+
+$enews--background-color: $gray--dark;
+$enews__title--color: $white;
+$enews__input--border-color: $gray--dark;
+$enews__input--background-color: $primary--red;
+$enews__input--color: $white;
+$enews__input-focus--background-color: $white;
+$enews__input-focus--color: $gray--dark;
 
 //
 // General Components
-//=========================
 
-$breadcrumbs__background-color: $white;
-$author-box__background-color: $white;
-$after-entry__background-color: $white;
-$archive-description__background-color: $white;
+
+$breadcrumbs--background-color: $white;
+$author-box--background-color: $white;
+$after-entry--background-color: $white;
+$archive-description--background-color: $white;

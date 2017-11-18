@@ -2,10 +2,10 @@
 --------------------------------------------- */
 .entry-footer {
     .entry-meta {
-        border-top: 1px solid $entry-footer__meta__border-color;
+        border-top: 1px solid $entry-footer__meta--border-color;
         padding-top: 24px;
         margin-bottom: 0;
-        font-size: rem( $entry-meta__footer__font-size );
+        font-size: rem( $footer__meta--font-size );
     }
 }
 
