@@ -47,7 +47,7 @@
 		&:before {
 			display: inline-block;
 			text-rendering: auto;
-			@include transform( translate( 0, 0 ) );
+			transform: translate( 0, 0 );
 		}
 
 		&.activated:before {
@@ -71,7 +71,7 @@
 		&:before, &.activated:before {
 			margin-right: 10px;
 			text-rendering: auto;
-			@include transform( translate( 0, 0 ) );
+			transform: translate( 0, 0 );
 		}
 	}
 }
