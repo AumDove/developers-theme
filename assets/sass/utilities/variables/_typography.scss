@@ -1,3 +1,35 @@
+
+// Common Fonts
+
+
+$font-family__source-sans-pro: 'Source Sans Pro', sans-serif;
+
+
+// Base Typography
+
+$base__font-family: $font-family__source-sans-pro;
+$base__font-size: 20;
+$base__line-height: 1.2;
+
+$base-div__font-size: 20;
+$body-div__small-screen__font-size: 18;
+$body-only__small-screen__font-size: 18;
+
+
+$html__font-size: 62.5%; // 10px browser default
+// Headings
+
+$headings__font-family: $font-family__source-sans-pro;
+$headings__line-height: 1.2;
+
+$h1__font-size: 36;
+$h2__font-size: 30;
+$h3__font-size: 24;
+$h4__font-size: 20;
+$h5__font-size: 18;
+$h6__font-size: 16;
+
+
 //
 // Navigation
 //=========================
@@ -5,6 +37,15 @@ $nav__font-size: 16;
 $submenu__font-size: 14;
 $primary-nav__font-size: 14;
 $archive-pagination__font-size: 16;
+
+
+//
+// Elements
+//==========================
+
+$blockquote__font-size: 30;
+$input__font-size: 18;
+$form-button__font-size: 16;
 
 //
 // Site Header
@@ -48,3 +89,18 @@ $featured-content__entry-title__font-size: 20;
 //=========================
 
 $enews-input__font-size: 16;
+
+//
+// General Components
+//=========================
+
+$breadcrumb__font-size: 16;
+
+$author-box__font-size: 18;
+$author-box__title__font-size: 20;
+$archive-desc__title__font-size: 20;
+
+$after-entry__font-size: 18;
+$archive-description__font-size: 18;
+$archive__title__font-size: 20;
+

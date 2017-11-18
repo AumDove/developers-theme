@@ -37,6 +37,25 @@ $archive-pagination__color: #333;
 $archive-pagination__hover-background-color: #c3251d;
 $archive-pagination__hover-color: #$white;
 
+//
+// Elements
+//==========================
+$base__body__background-color: #eee;
+$base__body__color: #333;
+
+
+// Elements -- Forms
+$input__background-color: #fff;
+$input__border-color: #ddd;
+$input__color: #333;
+$input__focus: #999;
+$form-button__background-color:#333;
+$form-button__hover-focus__background-color
+: #c3251d;
+$form-button__color: $white;
+$form-button__hover-focus__color: $white;
+$form-button__disabled-background-color: #eee;
+$form-button__disabled-color: #777;
 
 //
 // Header
@@ -87,3 +106,12 @@ $enews-input__background-color: #c3251d;
 $enews-input__color: #fff;
 $enews-input-focus__background-color: #fff;
 $enews-input-focus__color: #333;
+
+//
+// General Components
+//=========================
+
+$breadcrumbs__background-color: $white;
+$author-box__background-color: $white;
+$after-entry__background-color: $white;
+$archive-description__background-color: $white;
