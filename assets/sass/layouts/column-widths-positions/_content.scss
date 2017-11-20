@@ -24,7 +24,7 @@
 			width: $content-both-sidebars--larger-screen--width ;
 		}
 		@include media($breakpoint__large-screen) {
-				width: $content-both-sidebars--large-screen--width;
+			width: $content-both-sidebars--large-screen--width;
 		}
 
 
@@ -49,16 +49,16 @@
 // 	}
 // }
 
-@include media($breakpoint__medium-screen) {
-    .content,
-	.content-sidebar-sidebar .content,
-	.content-sidebar-sidebar .content-sidebar-wrap,
-	.sidebar-content-sidebar .content,
-	.sidebar-content-sidebar .content-sidebar-wrap,
-	.sidebar-primary,
-	.sidebar-secondary,
-	.sidebar-sidebar-content .content,
-	.sidebar-sidebar-content .content-sidebar-wrap {
-		width: 100%;
-	}
-}
+// @include media($breakpoint__medium-screen) {
+//     .content,
+// 	.content-sidebar-sidebar .content,
+// 	.content-sidebar-sidebar .content-sidebar-wrap,
+// 	.sidebar-content-sidebar .content,
+// 	.sidebar-content-sidebar .content-sidebar-wrap,
+// 	.sidebar-primary,
+// 	.sidebar-secondary,
+// 	.sidebar-sidebar-content .content,
+// 	.sidebar-sidebar-content .content-sidebar-wrap {
+// 		width: 100%;
+// 	}
+// }

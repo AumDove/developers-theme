@@ -2,15 +2,18 @@
 
 .sidebar-primary {
 	float: right;
-	width: $primary-sidebar--width;
+	width: $primary-sidebar--width; // 360px
 
 	@include media ($breakpoint__larger-screen ) {
-		width: $primary-sidebar--larger-screen--width;
+		width: $primary-sidebar--larger-screen--width; // 300px
 	}
-
-	.sidebar-content &,
-	.sidebar-sidebar-content & {
-		float: left;
+ //added to test
+	@include media($breakpoint__medium-screen) {
+		width: 100%;
+		.sidebar-content &,
+		.sidebar-sidebar-content & {
+			float: left;
+		}
 	}
 }
 

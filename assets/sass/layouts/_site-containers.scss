@@ -4,19 +4,19 @@
 .site-inner,
 .wrap {
 	margin: 0 auto;
-	breakpoint__max-width;
+	max-width: $max-width;
 	// background-color: orangered;
 
 	@include media ($breakpoint__larger-screen) {
-		breakpoint__max-width--larger-screen;
+		max-width: $max-width--larger-screen;
 	}
 
 	@include media($breakpoint__large-screen) {
-		breakpoint__max-width--large-screen;
+		max-width: $max-width--large-screen;
 	}
 
 	@include media($breakpoint__medium-screen) {
-		breakpoint__max-width--medium-screen;
+		max-width: $max-width--medium-screen;
 	}
 
 }
@@ -39,5 +39,5 @@
 }
 
 .landing-page .site-inner {
-	breakpoint__landing-page__max-width--medium-screen;
+	max-width: $landing-page__max-width--medium-screen;
 }
