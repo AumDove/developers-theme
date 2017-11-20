@@ -1,14 +1,15 @@
 //
 // Calendar Widget
 // =================================
+@media only screen and (min-width: 1600px) {
+    .widget_calendar {
+        table {
+            width: 100%;
+        }
 
-.widget_calendar {
-    table {
-	    width: 100%;
-    }
-
-    td,
-    th {
-        text-align: center;
+        td,
+        th {
+            text-align: center;
+        }
     }
 }

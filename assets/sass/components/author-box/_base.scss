@@ -2,22 +2,24 @@
 // Author Box Base
 //=========================
 
-.author-box {
-	background-color: $author-box--background-color;
-	@include rem( font-size, $author-box--font-size );
-	margin-bottom: 40px;
-    padding: 60px;
+@media only screen and (min-width: 1600px) {
+    .author-box {
+        background-color: $author-box--background-color;
+        @include rem( font-size, $author-box--font-size );
+        margin-bottom: 40px;
+        padding: 60px;
 
-    p:last-child {
-        margin-bottom: 0;
+        p:last-child {
+            margin-bottom: 0;
+        }
+
+        // @media only screen and (max-width: $small-screen) {
+        // 	padding: 30px;
+        // 	margin-bottom: 5%;
+        // }
     }
 
-    // @media only screen and (max-width: $small-screen) {
-	// 	padding: 30px;
-	// 	margin-bottom: 5%;
-	// }
-}
-
-.author-box-title {
-    font-size: $author-box__title--font-size;
+    .author-box-title {
+        font-size: $author-box__title--font-size;
+    }
 }

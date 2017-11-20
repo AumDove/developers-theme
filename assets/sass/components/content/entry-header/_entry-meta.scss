@@ -2,15 +2,16 @@
 
 /* ## Entry Header Meta
 --------------------------------------------- */
-
-.entry-header {
-    .entry-meta {
-        margin-bottom: 24px;
-        @include rem( font-size, $header__meta--font-size );
+@media only screen and (min-width: 1600px) {
+    .entry-header {
+        .entry-meta {
+            margin-bottom: 24px;
+            @include rem( font-size, $header__meta--font-size );
+        }
     }
-}
 
-.entry-comments-link::before {
-	content: "\2014";
-	margin: 0 6px 0 2px;
+    .entry-comments-link:before {
+        content: "\2014";
+        margin: 0 6px 0 2px;
+    }
 }

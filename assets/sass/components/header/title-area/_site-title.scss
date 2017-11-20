@@ -2,15 +2,18 @@
 // Site Title
 // ==========================
 
-.site-title {
-	@include rem( font-size, $site-title--font-size );
-	font-weight: 700;
-	line-height: 1.2;
+@media only screen and (min-width: 1600px) {
 
-	a,
-	a:focus,
-	a:hover {
-		color: $site-title--link-color;
-		text-decoration: none;
+	.site-title {
+		@include rem( font-size, $site-title--font-size );
+		font-weight: 700;
+		line-height: 1.2;
+
+		a,
+		a:focus,
+		a:hover {
+			color: $site-title--link-color;
+			text-decoration: none;
+		}
 	}
 }

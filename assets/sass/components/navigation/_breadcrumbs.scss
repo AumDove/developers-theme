@@ -1,9 +1,11 @@
 /* ## Breadcrumbs
 ============================================*/
+@media only screen and (min-width: 1600px) {
 
-.breadcrumb {
-	background-color: $breadcrumbs--background-color;
-	@include rem( font-size, $breadcrumb--font-size );
-	margin-bottom: 1px;
-	padding: 12px 30px;
+	.breadcrumb {
+		background-color: $breadcrumbs--background-color;
+		@include rem( font-size, $breadcrumb--font-size );
+		margin-bottom: 1px;
+		padding: 12px 30px;
+	}
 }

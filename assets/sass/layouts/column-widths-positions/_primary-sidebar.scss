@@ -1,15 +1,17 @@
 /* ### Primary Sidebar */
 
-.sidebar-primary {
-	float: right;
-	width: $primary-sidebar--width;
+@media only screen and (min-width: 1600px) {
+	.sidebar-primary {
+		float: right;
+		width: $primary-sidebar--width;
 
-	.sidebar-content &,
-	.sidebar-sidebar-content & {
-		float: left;
+		.sidebar-content &,
+		.sidebar-sidebar-content & {
+			float: left;
+		}
+
+		// @media only screen and (max-width: $larger-screen ) {
+		// 	width: $primary-sidebar--larger-screen--width;
+		// }
 	}
-
-	// @media only screen and (max-width: $larger-screen ) {
-	// 	width: $primary-sidebar--larger-screen--width;
-	// }
 }

@@ -1,47 +1,48 @@
 /* ### Content */
 
-.content {
-	float: right;
-	width: $content--width;
-
-	// @media only screen and (max-width: $larger-screen) {
-	// 	width: $content--larger-screen--width;
-	// }
-
-	// @media only screen and (max-width: $large-screen) {
-	// 	.site-header .widget-area {
-	// 		width: $content--large-screen--width;
-	// 	}
-	// }
-
-	.content-sidebar-sidebar &,
-	.sidebar-content-sidebar &,
-	.sidebar-sidebar-content & {
-		width: $content-both-sidebars--width;
+@media only screen and (min-width: 1600px) {
+	.content {
+		float: right;
+		width: $content--width;
 
 		// @media only screen and (max-width: $larger-screen) {
-		// 	width: $content-both-sidebars--larger-screen--width ;
+		// 	width: $content--larger-screen--width;
 		// }
+
 		// @media only screen and (max-width: $large-screen) {
-		// 		width: $content-both-sidebars--large-screen--width;
+		// 	.site-header .widget-area {
+		// 		width: $content--large-screen--width;
+		// 	}
 		// }
-	}
 
-	.content-sidebar &,
-	.content-sidebar-sidebar &,
-	.sidebar-content-sidebar & {
-		float: left;
-	}
+		.content-sidebar-sidebar &,
+		.sidebar-content-sidebar &,
+		.sidebar-sidebar-content & {
+			width: $content-both-sidebars--width;
 
-	.full-width-content & {
-		width: 100%;
+			// @media only screen and (max-width: $larger-screen) {
+			// 	width: $content-both-sidebars--larger-screen--width ;
+			// }
+			// @media only screen and (max-width: $large-screen) {
+			// 		width: $content-both-sidebars--large-screen--width;
+			// }
+		}
+
+		.content-sidebar &,
+		.content-sidebar-sidebar &,
+		.sidebar-content-sidebar & {
+			float: left;
+		}
+
+		.full-width-content & {
+			width: 100%;
+		}
 	}
 }
-
-// @media only screen and (max-width: $large-screen) {
-// 	.content-sidebar-sidebar .content-sidebar-wrap,
-// 	.sidebar-content-sidebar .content-sidebar-wrap,
-// 	.sidebar-sidebar-content .content-sidebar-wrap {
-// 		width: 740px;
-// 	}
-// }
+	// @media only screen and (max-width: $large-screen) {
+	// 	.content-sidebar-sidebar .content-sidebar-wrap,
+	// 	.sidebar-content-sidebar .content-sidebar-wrap,
+	// 	.sidebar-sidebar-content .content-sidebar-wrap {
+	// 		width: 740px;
+	// 	}
+	// }

@@ -2,10 +2,12 @@
 // Comment Content
 //=========================
 
-.comment-content {
-	clear: both;
+@media only screen and (min-width: 1600px) {
+	.comment-content {
+		clear: both;
 
-	ul > li {
-		list-style-type: disc;
+		ul > li {
+			list-style-type: disc;
+		}
 	}
 }

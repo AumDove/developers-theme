@@ -3,18 +3,20 @@
 // Skip Link
 // =================================
 
-.genesis-skip-link {
-	margin: 0;
+@media only screen and (min-width: 1600px) {
+    .genesis-skip-link {
+        margin: 0;
 
-    li {
-        height: 0;
-        list-style: none;
-        width: 0;
+        li {
+            height: 0;
+            list-style: none;
+            width: 0;
+        }
     }
-}
 
-/* Display outline on focus */
-:focus {
-	color: #333;
-	outline: #ccc solid 1px;
+    /* Display outline on focus */
+    :focus {
+        color: #333;
+        outline: #ccc solid 1px;
+    }
 }

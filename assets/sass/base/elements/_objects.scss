@@ -1,19 +1,21 @@
 /* ## Objects
 --------------------------------------------- */
 
-embed,
-iframe,
-img,
-object,
-video,
-.wp-caption {
-	max-width: 100%;
-}
+@media only screen and (min-width: 1600px) {
+	embed,
+	iframe,
+	img,
+	object,
+	video,
+	.wp-caption {
+		max-width: 100%;
+	}
 
-img {
-	height: auto;
-}
+	img {
+		height: auto;
+	}
 
-figure {
-	margin: 0;
+	figure {
+		margin: 0;
+	}
 }

@@ -1,40 +1,44 @@
 /* ## Genesis eNews Extended
 --------------------------------------------- */
-.sidebar .enews-widget {
-    background-color: $enews--background-color;
 
-    &, .widget-title {
-        color: $enews__title--color;
-    }
+@media only screen and (min-width: 1600px) {
 
-    input,
-    input:focus {
-        border: 1px solid $enews__input--border-color;
-    }
+    .sidebar .enews-widget {
+        background-color: $enews--background-color;
 
-    input[type="submit"] {
-        background-color: $enews__input--background-color;
-        color: $enews__input--color;
-    }
+        &, .widget-title {
+            color: $enews__title--color;
+        }
 
-    input[type="submit"]:focus,
-    input[type="submit"]:hover  {
-        background-color: $enews__input-focus--background-color;
-        color: $enews__input-focus--color;
-    }
-}
+        input,
+        input:focus {
+            border: 1px solid $enews__input--border-color;
+        }
 
-.enews-widget {
-    input {
-        @include rem( font-size, $enews__input--font-size );
-        margin-bottom: 16px;
+        input[type="submit"] {
+            background-color: $enews__input--background-color;
+            color: $enews__input--color;
+        }
 
-        &[type="submit"] {
-            margin: 0;
-            width: 100%;
+        input[type="submit"]:focus,
+        input[type="submit"]:hover  {
+            background-color: $enews__input-focus--background-color;
+            color: $enews__input-focus--color;
         }
     }
-}
-.enews form + p {
-    margin-top: 24px;
+
+    .enews-widget {
+        input {
+            @include rem( font-size, $enews__input--font-size );
+            margin-bottom: 16px;
+
+            &[type="submit"] {
+                margin: 0;
+                width: 100%;
+            }
+        }
+    }
+    .enews form + p {
+        margin-top: 24px;
+    }
 }

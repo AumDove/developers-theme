@@ -3,12 +3,14 @@
 // Widget Title Styles
 //========================
 
-.sidebar .widget-title a {
-    color: $widget-title--link-color;
-    text-decoration: none;
-}
+@media only screen and (min-width: 1600px) {
+    .sidebar .widget-title a {
+        color: $widget-title--link-color;
+        text-decoration: none;
+    }
 
-.widget-title {
-	@include rem( font-size, $widget-title--font-size );
-    margin-bottom: 20px;
+    .widget-title {
+        @include rem( font-size, $widget-title--font-size );
+        margin-bottom: 20px;
+    }
 }

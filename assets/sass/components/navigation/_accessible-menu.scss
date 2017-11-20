@@ -1,24 +1,26 @@
 /* ## Accessible Menu
 --------------------------------------------- */
 
-.menu {
-	.menu-item{
-		:focus {
-			position: static;
+@media only screen and (min-width: 1600px) {
+	.menu {
+		.menu-item{
+			:focus {
+				position: static;
 
-			> a:focus + ul.sub-menu,
-			&.sfHover > ul.sub-menu {
-				left: auto;
-				opacity: 1;
+				> a:focus + ul.sub-menu,
+				&.sfHover > ul.sub-menu {
+					left: auto;
+					opacity: 1;
+				}
 			}
 		}
 	}
+	.menu-toggle,
+	.sub-menu-toggle {
+		display: none;
+		visibility: hidden;
+	}
 }
-.menu-toggle,
-.sub-menu-toggle {
-	display: none;
-	visibility: hidden;
-
 	// @media only screen and (max-width: 1023px) {
 	// 	border-width: 0;
 	// 	background-color: $nav-toggle--background-color;
@@ -29,7 +31,7 @@
 	// 	text-align: center;
 	// 	visibility: visible;
 	// }
-}
+
 
 // @media only screen and (max-width: 1023px)  {
 // 	.sub-menu-toggle {
@@ -54,6 +56,7 @@
 // 			content: "\f142";
 // 		}
 // 	}
+
 
 // 	.menu-toggle {
 // 		border-top: 1px solid #eee;

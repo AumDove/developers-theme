@@ -2,16 +2,18 @@
 // Entry Title
 //=========================
 
-.entry-title {
-	@include rem( font-size, $entry-title--font-size );
+@media only screen and (min-width: 1600px) {
+    .entry-title {
+        @include rem( font-size, $entry-title--font-size );
 
-    a {
-        color: $entry-title--link-color;
-        text-decoration: none;
+        a {
+            color: $entry-title--link-color;
+            text-decoration: none;
 
-        &:hover,
-        &:focus {
-            color: #c3251d;
+            &:hover,
+            &:focus {
+                color: #c3251d;
+            }
         }
     }
 }

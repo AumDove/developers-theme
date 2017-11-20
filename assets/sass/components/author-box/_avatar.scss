@@ -2,6 +2,10 @@
 //
 // Author Box Avatar
 //=========================
-.author-box .avatar {
-	margin-right: 24px;
+
+@media only screen and (min-width: 1600px) {
+
+	.author-box .avatar {
+		margin-right: 24px;
+	}
 }

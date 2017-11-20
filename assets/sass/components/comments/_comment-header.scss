@@ -2,10 +2,12 @@
 // Comment Header
 //==========================
 
-.comment-header {
-	margin-bottom: 30px;
+@media only screen and (min-width: 1600px) {
+	.comment-header {
+		margin-bottom: 30px;
 
-	p {
-		margin-bottom: 0;
+		p {
+			margin-bottom: 0;
+		}
 	}
 }
