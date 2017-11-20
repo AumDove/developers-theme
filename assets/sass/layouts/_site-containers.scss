@@ -4,18 +4,19 @@
 .site-inner,
 .wrap {
 	margin: 0 auto;
-	max-width: $max-width;
+	breakpoint__max-width;
+	// background-color: orangered;
 
-	@media only screen and (max-width: $larger-screen) {
-		max-width: $max-width--larger-screen;
+	@include media ($breakpoint__larger-screen) {
+		breakpoint__max-width--larger-screen;
 	}
 
-	@media only screen and (max-width: $large-screen) {
-		max-width: $max-width--large-screen;
+	@include media($breakpoint__large-screen) {
+		breakpoint__max-width--large-screen;
 	}
 
-	@media only screen and (max-width: $medium-screen) {
-		max-width: $max-width--medium-screen;
+	@include media($breakpoint__medium-screen) {
+		breakpoint__max-width--medium-screen;
 	}
 
 }
@@ -25,18 +26,18 @@
 	padding-top: 40px;
 	word-wrap: break-word;
 
-	@media only screen and (max-width: $small-screen) {
+	@include media($breakpoint__small-screen) {
 		padding: 5% 5% 0;
 	}
 }
 
 .wrap {
-	@media only screen and (max-width: $small-screen) {
+	@include media($breakpoint__small-screen) {
 		padding-left: 5%;
 		padding-right: 5%;
 	}
 }
 
 .landing-page .site-inner {
-	max-width: $landing-page__max-width--medium-screen;
+	breakpoint__landing-page__max-width--medium-screen;
 }

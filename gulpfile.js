@@ -8,7 +8,6 @@ var gulp = require('gulp'),
     sass = require('gulp-sass'),
     postcss = require('gulp-postcss'),
     autoprefixer = require('autoprefixer'),
-    cssMQpacker = require('css-mqpacker'),
     sourcemaps = require('gulp-sourcemaps'),
     cssMinify = require('gulp-cssnano'),
     sassLint = require('gulp-sass-lint'),
@@ -71,13 +70,13 @@ gulp.task('postcss', function() {
 function handleErrors() {
     var args = Array.prototype.slice.call(arguments);
 
-    notify.onError({
-        title: 'Task Failed [<%= error.message %>',
-        message: 'See console.',
-        sound: 'Sosumi' // https://github.com/mikaelbr/node-notifier#all-notification-options-
-    }).apply(this, args);
+    // notify.onError({
+    //     title: 'Task Failed [<%= error.message %>',
+    //     message: 'See console.',
+    //     sound: 'Sosumi' // https://github.com/mikaelbr/node-notifier#all-notification-options-
+    // }).apply(this, args);
 
-    gutil.beep(); // Beep 'sosumi' again
+    // gutil.beep(); // Beep 'sosumi' again
 
     // Prevent the 'watch' task from stopping
     this.emit('end');
@@ -109,7 +108,7 @@ gulp.task('cssMinify', ['postcss'], function() {
     }))
 
     .pipe(cssMinify({
-        safe:true
+        safe: true
     }))
 
     .pipe(rename('style.min.css'))

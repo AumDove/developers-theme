@@ -3,15 +3,16 @@
 .content {
 	float: right;
 	width: $content--width;
+	background-color: green;
 
-	@media only screen and (max-width: $larger-screen) {
+	@include media($breakpoint__larger-screen) {
 		width: $content--larger-screen--width;
+		background-color: pink;
 	}
 
-	@media only screen and (max-width: $large-screen) {
-		.site-header .widget-area {
+	@include media($breakpoint__large-screen) {
 			width: $content--large-screen--width;
-		}
+			background-color: purple;
 	}
 
 	.content-sidebar-sidebar &,
@@ -19,12 +20,14 @@
 	.sidebar-sidebar-content & {
 		width: $content-both-sidebars--width;
 
-		@media only screen and (max-width: $larger-screen) {
+		@include media($breakpoint__larger-screen) {
 			width: $content-both-sidebars--larger-screen--width ;
 		}
-		@media only screen and (max-width: $large-screen) {
+		@include media($breakpoint__large-screen) {
 				width: $content-both-sidebars--large-screen--width;
 		}
+
+
 	}
 
 	.content-sidebar &,
@@ -38,10 +41,24 @@
 	}
 }
 
-// @media only screen and (max-width: $large-screen) {
+// @include media($breakpoint__large-screen) {
 // 	.content-sidebar-sidebar .content-sidebar-wrap,
 // 	.sidebar-content-sidebar .content-sidebar-wrap,
 // 	.sidebar-sidebar-content .content-sidebar-wrap {
 // 		width: 740px;
 // 	}
 // }
+
+@include media($breakpoint__medium-screen) {
+    .content,
+	.content-sidebar-sidebar .content,
+	.content-sidebar-sidebar .content-sidebar-wrap,
+	.sidebar-content-sidebar .content,
+	.sidebar-content-sidebar .content-sidebar-wrap,
+	.sidebar-primary,
+	.sidebar-secondary,
+	.sidebar-sidebar-content .content,
+	.sidebar-sidebar-content .content-sidebar-wrap {
+		width: 100%;
+	}
+}

@@ -7,7 +7,7 @@
 	padding: 10px 0;
 	width: $title-area--width;
 
-	@media only screen and (max-width: 1023px)  {
+	@include media($breakpoint__medium-screen)  {
 		width:100%;
 	}
 
@@ -17,7 +17,7 @@
 	}
 }
 
-@media only screen and (max-width: 1023px)  {
+@include media($breakpoint__medium-screen)  {
 	.site-description,
 	.site-header .title-area,
 	.site-header .widget-area,

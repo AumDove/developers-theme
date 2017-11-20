@@ -19,7 +19,7 @@
 	display: none;
 	visibility: hidden;
 
-	@media only screen and (max-width: 1023px) {
+	@include media($breakpoint__medium-screen) {
 		border-width: 0;
 		background-color: $nav-toggle--background-color;
 		color: $nav-toggle--color;
@@ -31,7 +31,7 @@
 	}
 }
 
-@media only screen and (max-width: 1023px)  {
+@include media($breakpoint__medium-screen)  {
 	.sub-menu-toggle {
 		float: right;
 		padding: 10px;

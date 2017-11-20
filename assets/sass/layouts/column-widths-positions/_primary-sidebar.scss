@@ -4,12 +4,14 @@
 	float: right;
 	width: $primary-sidebar--width;
 
+	@include media ($breakpoint__larger-screen ) {
+		width: $primary-sidebar--larger-screen--width;
+	}
+
 	.sidebar-content &,
 	.sidebar-sidebar-content & {
 		float: left;
 	}
-
-	@media only screen and (max-width: $larger-screen ) {
-		width: $primary-sidebar--larger-screen--width;
-	}
 }
+
+

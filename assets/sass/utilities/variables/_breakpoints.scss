@@ -1,7 +1,15 @@
 //
 // Breakpoints
-//
-//
-// ==============================
+//============================
 
+//@include media($breakpoint__ 1340px) {
+    $breakpoint__larger-screen: new-breakpoint(max-width $larger-screen 12);
 
+    //@include media($breakpoint__ 1200px) {
+    $breakpoint__large-screen: new-breakpoint(max-width $large-screen 12);
+
+    //@include media($breakpoint__ 1023px) {
+    $breakpoint__medium-screen: new-breakpoint(max-width $medium-screen 6);
+
+    //@include media($breakpoint__small-screen) {
+    $breakpoint__small-screen: new-breakpoint(max-width $small-screen 4);

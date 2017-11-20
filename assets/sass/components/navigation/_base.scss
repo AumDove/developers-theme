@@ -9,7 +9,7 @@
 	line-height: 1;
 	width: 100%;
 
-    @media only screen and (max-width: 1023px) {
+    @include media($breakpoint__medium-screen) {
         text-align: center;
 
         li,
