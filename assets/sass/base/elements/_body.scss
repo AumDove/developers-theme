@@ -19,16 +19,23 @@ body {
 	line-height: 1.625;
     margin: 0;
 
-    @media only screen and (max-width: $small-screen) {
-        @include rem( font-size, $body-only--font-size--small-screen );
-    }
-
-    /* Chrome fix */
     > div {
         @include rem( font-size, $base-div--font-size );
-
-        @media only screen and (max-width: $small-screen) {
-            @include rem( font-size, $body-div--font-size--small-screen );
-        }
     }
 }
+
+// /* Chrome fix */
+
+// @media only screen and (max-width: $small-screen) {
+    //     @include rem( font-size, $body-only--font-size--small-screen );
+    // }
+
+
+    // > div {
+
+        // @media only screen and (max-width: $small-screen) {
+        //     @include rem( font-size, $body-div--font-size--small-screen );
+        // }
+    // }
+
+

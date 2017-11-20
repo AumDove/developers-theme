@@ -6,13 +6,13 @@
 	.sidebar-sidebar-content & {
 		width: $content-sidebar__wrap--width;
 
-		@media only screen and (max-width: $larger-screen) {
-			width: $content-sidebar__wrap--larger-screen--width;
-		}
+		// @media only screen and (max-width: $larger-screen) {
+		// 	width: $content-sidebar__wrap--larger-screen--width;
+		// }
 
-		@media only screen and (max-width: $large-screen) {
-			width: $content-sidebar__wrap--large-screen--width;
-		}
+		// @media only screen and (max-width: $large-screen) {
+		// 	width: $content-sidebar__wrap--large-screen--width;
+		// }
 	}
 
 	.content-sidebar-sidebar & {
@@ -24,4 +24,3 @@
 		float: right;
 	}
 }
-
