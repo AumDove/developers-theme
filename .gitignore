@@ -1,3 +1,7 @@
+#Ignore in Development
+style.css
+style.min.css
+
 # Unit tests config
 phpunit.xml
 .travis.yml
