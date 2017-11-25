@@ -2,6 +2,13 @@
 // After Entry
 //=========================
 
+.after-entry {
+	background-color: $author-box--background-color;
+	@include rem( font-size, $mobile__author-box--font-size );
+	margin-bottom: 5%;
+	padding: 3rem;
+}
+
 @media only screen and (min-width: 1600px) {
 	.after-entry {
 		background-color: $author-box--background-color;

@@ -1,6 +1,45 @@
 /* ## Headings
 --------------------------------------------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $mobile__headings--font-family;
+	font-weight: 600;
+	line-height: $mobile__headings--line-height;
+	margin: 0 0 10px;
+}
+
+h1 {
+	@include rem( font-size, $mobile__h1--font-size );
+}
+
+h2 {
+	@include rem( font-size, $mobile__h2--font-size );
+}
+
+h3 {
+	@include rem( font-size, $mobile__h3--font-size );
+}
+
+h4 {
+	@include rem( font-size, $mobile__h4--font-size );
+}
+
+h5 {
+	@include rem( font-size, $mobile__h5--font-size );
+}
+
+h6 {
+	@include rem( font-size, $mobile__h6--font-size );
+}
+
+
 @media only screen and (min-width: 1600px) {
+	
 	h1,
 	h2,
 	h3,
@@ -36,4 +75,6 @@
 	h6 {
 		@include rem( font-size, $h6--font-size );
 	}
+
+
 }

@@ -3,6 +3,28 @@
 // Comments Base Style
 //=========================
 
+.comment-respond,
+.entry-comments,
+.entry-pings {
+	background-color: $comment--background-color;
+	@include rem( font-size, $mobile__comments--font-size );
+	margin-bottom: 5%;
+	padding: 30px;
+}
+
+.comment-respond,
+.entry-pings {
+	padding: 4rem 4rem 2.5rem;
+}
+
+.entry-comments {
+	padding: 3rem;
+}
+
+.entry-pings .reply {
+	display: none;
+}
+
 @media only screen and (min-width: 1600px) {
 
 	.comment-respond,

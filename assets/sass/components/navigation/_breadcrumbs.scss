@@ -4,8 +4,8 @@
 
 	.breadcrumb {
 		background-color: $breadcrumbs--background-color;
-		@include rem( font-size, $breadcrumb--font-size );
+		@include rem( font-size, $mobile__breadcrumb--font-size );
 		margin-bottom: 1px;
-		padding: 12px 30px;
+		padding: 1rem 3rem;
 	}
 }

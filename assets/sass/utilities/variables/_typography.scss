@@ -1,3 +1,8 @@
+// Base Typography
+$html--font-size: 62.5%; // 10px browser default
+
+$font-family--source-sans-pro: 'Source Sans Pro', sans-serif;
+$base--font-family: $font-family--source-sans-pro;
 
 //============================
 
@@ -5,35 +10,94 @@
 // MOBILE SIZES
 //============================
 
+$mobile__base--font-size: 1.8rem;
+$mobile__base-div--font-size: 1.8rem;
+
+// Elements
+
+$mobile__blockquote--font-size: 30px;
+$mobile__input--font-size: 18px;
+$mobile__form-button--font-size: 16px;
 
 
+// Navigation
 
+$mobile__nav--font-size: 16px;
+$mobile__submenu--font-size: 14px;
+$mobile__primary-nav--font-size: 14px;
+$mobile__archive-pagination--font-size: 16px;
 
+// Site Header
 
-//============================
+$mobile__site-title--font-size: 30px;
+$mobile__site-description--font-size: 16px;
+
+// Headings
+
+$mobile__headings--font-family: $font-family--source-sans-pro;
+$mobile__headings--line-height: 1.2;
+
+$mobile__h1--font-size: 36px;
+$mobile__h2--font-size: 30px;
+$mobile__h3--font-size: 24px;
+$mobile__h4--font-size: 20px;
+$mobile__h5--font-size: 18px;
+$mobile__h6--font-size: 16px;
+
+// General Components
+
+$mobile__breadcrumb--font-size: 16px;
+
+$mobile__author-box--font-size: 18px;
+$mobile__author-box__title--font-size: 20px;
+$mobile__archive-desc__title--font-size: 20px;
+
+$mobile__after-entry--font-size: 18px;
+$mobile__archive-description--font-size: 18px;
+$mobile__archive__title--font-size: 20px;
+
+// Entry Content
+
+$mobile__entry-meta--font-size: 16px;
+$mobile__header__meta--font-size: 16px;
+$mobile__footer__meta--font-size: 16px;
+
+$mobile__entry-title--font-size: 36px;
+
+// Comments
+
+$mobile__comments--font-size: 16px;
 
 //
+// Widgets
+//=========================
+
+$mobile__widget-title--font-size: 18px;
+// $mobile__featured-content__entry-title--font-size: 20px;
+
+// Site Footer
+
+// $mobile__site-footer--font-size: 16px;
+$mobile__footer-widgets--font-size: 18px;
+
+// Plugins
+
+$enews__input--font-size: 16px;
+//============================
 //HUGE SIZES
 //============================
-
 
 // Common Fonts
 
 $font-family--source-sans-pro: 'Source Sans Pro', sans-serif;
 
-
-// Base Typography
-$html--font-size: 62.5%; // 10px browser default
-
 $base--font-family: $font-family--source-sans-pro;
 $base--font-size: 20px;
-$base--line-height: 1.2px;
+// $base--line-height: 1.2px;
 
-$base-div--font-size: 20px;
-$body-div--font-size--small-screen: 18px;
-$body-only--font-size--small-screen: 18px;
-
-
+// $base-div--font-size: 20px;
+// $body-div--font-size--small-screen: 18px;
+// $body-only--font-size--small-screen: 18px;
 
 // Headings
 
@@ -47,7 +111,6 @@ $h4--font-size: 20px;
 $h5--font-size: 18px;
 $h6--font-size: 16px;
 
-
 //
 // Navigation
 //=========================
@@ -57,20 +120,20 @@ $primary-nav--font-size: 14px;
 $archive-pagination--font-size: 16px;
 
 
-//
-// Elements
-//==========================
+// //
+// // Elements
+// //==========================
 
-$blockquote--font-size: 30px;
-$input--font-size: 18px;
-$form-button--font-size: 16px;
+// $blockquote--font-size: 30px;
+// $input--font-size: 18px;
+// $form-button--font-size: 16px;
 
-//
-// Site Header
-//========================
+// //
+// // Site Header
+// //========================
 
-$site-title--font-size: 30px;
-$site-description--font-size: 16px;
+// $site-title--font-size: 30px;
+// $site-description--font-size: 16px;
 
 //
 // Site Footer
@@ -79,15 +142,15 @@ $site-description--font-size: 16px;
 $site-footer--font-size: 16px;
 $footer-widgets--font-size: 18px;
 
-//
-// Entry Content
-//========================
+// //
+// // Entry Content
+// //========================
 
 $entry-meta--font-size: 16px;
 $header__meta--font-size: 16px;
 $footer__meta--font-size: 16px;
 
-$entry-title--font-size: 36px;
+// $entry-title--font-size: 36px;
 
 //
 // Comments
@@ -102,23 +165,19 @@ $comments--font-size: 16px;
 $widget-title--font-size: 18px;
 $featured-content__entry-title--font-size: 20px;
 
-//
-// Plugins
-//=========================
 
-$enews__input--font-size: 16px;
 
-//
-// General Components
-//=========================
+// //
+// // General Components
+// //=========================
 
-$breadcrumb--font-size: 16px;
+// $breadcrumb--font-size: 16px;
 
 $author-box--font-size: 18px;
-$author-box__title--font-size: 20px;
-$archive-desc__title--font-size: 20px;
+// $author-box__title--font-size: 20px;
+// $archive-desc__title--font-size: 20px;
 
-$after-entry--font-size: 18px;
-$archive-description--font-size: 18px;
-$archive__title--font-size: 20px;
+// $after-entry--font-size: 18px;
+// $archive-description--font-size: 18px;
+// $archive__title--font-size: 20px;
 

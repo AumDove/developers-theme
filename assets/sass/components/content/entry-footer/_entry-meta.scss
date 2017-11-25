@@ -1,6 +1,20 @@
 /* ## Entry Footer Meta
 --------------------------------------------- */
 
+.entry-footer {
+    .entry-meta {
+        border-top: 1px solid $entry-footer__meta--border-color;
+        padding-top: 24px;
+        margin-bottom: 0;
+        @include rem( font-size, $mobile__footer__meta--font-size );
+    }
+}
+
+.entry-categories,
+.entry-tags {
+    display: block;
+}
+
 @media only screen and (min-width: 1600px) {
 
     .entry-footer {

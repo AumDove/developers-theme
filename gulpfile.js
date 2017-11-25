@@ -47,9 +47,9 @@ gulp.task('postcss', function() {
             autoprefixer({
                 browsers: ['last 2 versions']
             }),
-            // cssMQpacker({
-            //     sort: false
-            // })
+            cssMQpacker({
+                sort: false
+            })
         ]))
 
         //creates sourcemap

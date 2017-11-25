@@ -5,20 +5,7 @@
 // MOBILE SIZES
 //============================
 
-
-
-//============================
-
-//
-//HUGE SIZES
-//============================
-
-
-
-//
-// Dimension Variables
-//=================================
-
+$mobile--max-width: 40rem;
 $base-width: 1500;
 $gutter: 40px;
 
@@ -31,6 +18,58 @@ $max-width--medium-screen: 800px;
 
 $landing-page__max-width--medium-screen: 800px;
 
+
+// Content Widths
+
+$mobile__content--width: 880px;
+// $content--width: $base-width * 0.6875 + px;
+$mobile__content--larger-screen--width:800px;
+$mobile__content--large-screen--width:620px;
+$mobile__content-both-sidebars--width: 660px;
+$mobile__content-both-sidebars--larger-screen--width: 580px;
+$mobile__content-both-sidebars--large-screen--width: 400px;
+
+// Header Module Widths
+
+$mobile__title-area--width: 300px;
+$mobile__site-title--min-height: 80px;
+$mobile__header-right--width: 800px;
+$mobile__header-right--laptop-width: 620px;
+
+
+// Sidebars
+
+$mobile__primary-sidebar--width: 360px;
+$mobile__primary-sidebar--larger-screen--width: 300px;
+$mobile__secondary-sidebar--width: 180px;
+
+
+$mobile__content-sidebar__wrap--width: 1060px;
+$mobile__content-sidebar__wrap--larger-screen--width: 920px;
+$mobile__content-sidebar__wrap--large-screen--width: 740px;
+
+//============================
+
+//
+//HUGE SIZES
+//============================
+
+
+// Dimension Variables
+//=================================
+/*
+$base-width: 1500;
+$gutter: 40px;
+
+// Max Widths
+$max-width: $base-width + px;
+
+$max-width--larger-screen: 1140px;
+$max-width--large-screen: 960px;
+$max-width--medium-screen: 800px;
+
+$landing-page__max-width--medium-screen: 800px;
+*/
 // Content Widths
 
 $content--width: 880px;
@@ -41,11 +80,13 @@ $content-both-sidebars--width: 660px;
 $content-both-sidebars--larger-screen--width: 580px;
 $content-both-sidebars--large-screen--width: 400px;
 
+// Sidebars
+
 $primary-sidebar--width: 360px;
 $primary-sidebar--larger-screen--width: 300px;
 $secondary-sidebar--width: 180px;
-// $primary-sidebar--width: $max-width - $content--width - $gutter;
-// $primary-sidebar--width: $base-width * 0.28125 + px;
+$primary-sidebar--width: $max-width - $content--width - $gutter;
+$primary-sidebar--width: $base-width * 0.28125 + px;
 
 $content-sidebar__wrap--width: 1060px;
 $content-sidebar__wrap--larger-screen--width: 920px;
@@ -57,8 +98,8 @@ $site-title--min-height: 80px;
 $header-right--width: 800px;
 $header-right--laptop-width: 620px;
 
+
 // Footer Module Widths
 $footer-widgets--width: 380px;
 $footer-widgets--width-: 380px;
-
 

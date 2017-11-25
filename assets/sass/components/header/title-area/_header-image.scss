@@ -2,6 +2,29 @@
 // Header Image
 // ==========================
 
+.header-image {
+    .title-area {
+        margin: 0 auto;
+        max-width: $mobile__title-area--width;
+        padding: 0;
+        float:none;
+    }
+    
+    .site-title > a {
+        background-position: center !important;
+        background-size: contain !important;
+        float: left;
+        min-height: $mobile__site-title--min-height;
+        width: 100%;
+
+        .site-description,
+        .site-title {
+            display: block;
+            text-indent: -9999px;
+        }
+    }
+}
+
 @media only screen and (min-width: 1600px) {
 
     .header-image {

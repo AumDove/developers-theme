@@ -1,5 +1,22 @@
 /* ### Wrapping div for .content and .sidebar-primary */
 
+.content-sidebar-wrap {
+	.content-sidebar-sidebar &,
+	.sidebar-content-sidebar &,
+	.sidebar-sidebar-content & {
+		width: $mobile__content-sidebar__wrap--width;
+	}
+
+	.content-sidebar-sidebar & {
+		float: left;
+	}
+
+	.sidebar-content-sidebar &,
+	.sidebar-sidebar-content & {
+		float: right;
+	}
+}
+
 @media only screen and (min-width: 1600px) {
 	.content-sidebar-wrap {
 		.content-sidebar-sidebar &,

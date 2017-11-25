@@ -1,8 +1,8 @@
 //
 // .js Enabled Styles
 // =====================================
-/*
-@media only screen and (max-width: 1023px) {
+
+// @media only screen and (max-width: 1023px) {
     .js {
         .genesis-nav-menu {
             .sub-menu, .sub-menu a {
@@ -75,33 +75,34 @@
             color: $js-nav--focus-color;
         }
     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav button {
+    &:hover,
+    .menu-toggle:hover,
+    .nav-primary {
+        background-color: #fff;
+        color: #000;
+
+    }
+    &:focus,
+    .menu-toggle:focus {
+        background-color: #fff;
+        color: #c3251d;
+    }
+    
 }
-
-
-
-
-
-*/
-
-
-
-
-
-
-
-
-
-// nav button {
-        //     &:hover,
-        //     .menu-toggle:hover,
-        //     .nav-primary {
-        //         background-color: #fff;
-        //         color: #000;
-
-
-        //     &:focus,
-        //     .menu-toggle:focus {
-        //         background-color: #fff;
-        //         color: #c3251d;
-        //     }
-        // }

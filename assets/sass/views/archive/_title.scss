@@ -1,4 +1,4 @@
 .archive-description .entry-title,
 .archive-title {
-	@include rem( font-size, $archive__title--font-size );
+	@include rem( font-size, $mobile__archive__title--font-size );
 }
