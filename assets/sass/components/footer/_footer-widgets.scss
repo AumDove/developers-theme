@@ -5,44 +5,41 @@
     background-color: $footer-widgets--background-color;
     clear: both;
     @include rem( font-size, $footer-widgets--font-size );
-    padding: 60px 0;
+    padding: 3rem 0;
 
     &-1,
     &-2,
     &-3 {
         width: 380px;
 
-        @media only screen and (max-width: 1340px) {
-            width: 340px;
-        }
-        @media only screen and (max-width: 1200px) {
-            width: 300px;
-        }
+        // @media only screen and (max-width: 1340px) {
+        //     width: 340px;
+        // }
+        // @media only screen and (max-width: 1200px) {
+        //     width: 300px;
+        // }
 
-        @media only screen and (max-width: 1023px) {
-            width: 100%;
-        }
+        // @media only screen and (max-width: 1023px) {
+        //     width: 100%;
+        // }
     }
 
     &-1 {
         margin-right: 70px;
 
-        @media only screen and (max-width: 1340px) {
-            margin-right: 60px;
-        }
+        // @media only screen and (max-width: 1340px) {
+        //     margin-right: 60px;
+        // }
 
-        @media only screen and (max-width: 1200px) {
-            margin-right: 30px;
-        }
+        // @media only screen and (max-width: 1200px) {
+        //     margin-right: 30px;
+        // }
     }
 
     &-1,
     &-2 {
         float: left;
-
-        @media only screen and (max-width: 1023px) {
-            margin: 0 auto 40px;
-        }
+        margin: 0 auto 40px;
     }
 
     &-3 {
@@ -64,37 +61,37 @@
         &-3 {
             width: 380px;
 
-            @media only screen and (max-width: 1340px) {
-                width: 340px;
-            }
-            @media only screen and (max-width: 1200px) {
-                width: 300px;
-            }
+            // @media only screen and (max-width: 1340px) {
+            //     width: 340px;
+            // }
+            // @media only screen and (max-width: 1200px) {
+            //     width: 300px;
+            // }
 
-            @media only screen and (max-width: 1023px) {
-                width: 100%;
-            }
+            // @media only screen and (max-width: 1023px) {
+            //     width: 100%;
+            // }
         }
 
         &-1 {
             margin-right: 70px;
 
-            @media only screen and (max-width: 1340px) {
-                margin-right: 60px;
-            }
+            // @media only screen and (max-width: 1340px) {
+            //     margin-right: 60px;
+            // }
 
-            @media only screen and (max-width: 1200px) {
-                margin-right: 30px;
-            }
+            // @media only screen and (max-width: 1200px) {
+            //     margin-right: 30px;
+            // }
         }
 
         &-1,
         &-2 {
             float: left;
 
-            @media only screen and (max-width: 1023px) {
-                margin: 0 auto 40px;
-            }
+            // @media only screen and (max-width: 1023px) {
+            //     margin: 0 auto 40px;
+            // }
         }
 
         &-3 {

@@ -8,12 +8,14 @@
         margin-bottom: 0;
         @include rem( font-size, $mobile__footer__meta--font-size );
     }
+
+    .entry-categories,
+    .entry-tags {
+        display: block;
+    }
 }
 
-.entry-categories,
-.entry-tags {
-    display: block;
-}
+
 
 @media only screen and (min-width: 1600px) {
 
@@ -25,10 +27,4 @@
             @include rem( font-size, $footer__meta--font-size );
         }
     }
-
-    .entry-categories,
-    .entry-tags {
-        display: block;
-    }
-
 }

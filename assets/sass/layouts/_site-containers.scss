@@ -3,54 +3,34 @@
 .site-inner, .wrap {
 	margin: 0 auto;
 	max-width: $mobile__wrap--max-width;
+
+	@media only screen and (min-width: 1200px) {
+		max-width: $max-width--large-screen;
+	}
+	@media only screen and (min-width: 1600px) {
+		max-width: $max-width--larger-screen;
+
+		& {
+			clear: both;
+			padding-top: 40px;
+			word-wrap: break-word;
+		}
+	}
 }
 
 .site-inner {
 	clear: both;
 	padding-top: 2rem;
 	word-wrap: break-word;
-}
 
+	@media only screen and (min-width: 1600px) {
+		padding-top: 40px;
+	}
+}
 .wrap {
 	padding: 5% 5% 0;
 }
 
-.landing-page .site-inner {
-	max-width: $landing-page__max-width--medium-screen;
-}
-
-@media only screen and (min-width: $tablet-landscape) {
-	max-width: $max-width--medium-screen;
-}
-@media only screen and (min-width: 1600px) {
-
-
-		// @media only screen and (max-width: $larger-screen) {
-		// 	max-width: $max-width--larger-screen;
-		// }
-
-		// @media only screen and (max-width: $large-screen) {
-		// 	max-width: $max-width--large-screen;
-		// }
-
-	.site-inner {
-		clear: both;
-		padding-top: 40px;
-		word-wrap: break-word;
-	}
-	// 	// @media only screen and (max-width: $small-screen) {
-	// 	// 	padding: 5% 5% 0;
-	// 	// }
-	// }
-
-	// .wrap {
-	// 	// @media only screen and (max-width: $small-screen) {
-	// 	// 	padding-left: 5%;
-	// 	// 	padding-right: 5%;
-	// 	// }
-	// }
-
-	// .landing-page .site-inner {
-	// 	max-width: $landing-page__max-width--medium-screen;
-	// }
-}
+// .landing-page .site-inner {
+// 	max-width: $landing-page__max-width--medium-screen;
+// }

@@ -14,11 +14,11 @@
 
 .comment-respond,
 .entry-pings {
-	padding: 4rem 4rem 2.5rem;
+	padding: 4.5rem 4.5rem 2.5rem;
 }
 
 .entry-comments {
-	padding: 3rem;
+	padding: 3.5rem;
 }
 
 .entry-pings .reply {
@@ -30,14 +30,7 @@
 	.comment-respond,
 	.entry-comments,
 	.entry-pings {
-		background-color: $comment--background-color;
-		@include rem( font-size, $comments--font-size );
 		margin-bottom: 40px;
-
-		// @media only screen and (max-width: 860px) {
-		// 	padding: 30px;
-		// 	margin-bottom: 5%;
-		// }
 	}
 	.comment-respond,
 	.entry-pings {
@@ -46,9 +39,5 @@
 
 	.entry-comments {
 		padding: 60px;
-	}
-
-	.entry-pings .reply {
-		display: none;
 	}
 }

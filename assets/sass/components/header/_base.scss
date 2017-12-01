@@ -6,21 +6,26 @@
     background-color: $site-header--background-color;
 
     > .wrap {
-    padding: 1.5rem 0;
-    }
+        padding: 1.5rem 0;
 
+        @media only screen and (min-width: 1600px) {
+            padding: 2rem 0;
+        }
+    }
     .wrap {
-        padding-left: 5%;
-        padding-right: 5%;
-    }
-}
+        padding-left: 0%;
+        padding-right: 0%;
 
-@media only screen and (min-width: 1600px) {
-    .site-header {
-        background-color: $site-header--background-color;
+        @media only screen and (min-width: 880px) {
+            padding-left: 3.5%;
+            padding-right: 5%;
+        }
 
-        > .wrap {
-        padding: 2rem 0;
+        @media only screen and (min-width: 1600px) {
+            padding-left: 4%;
+            padding-right: 5%;
         }
     }
 }
+
+

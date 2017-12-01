@@ -42,7 +42,7 @@ $mobile__header-right--laptop-width: 620px;
 
 $mobile__primary-sidebar--width: 100%;
 $mobile__primary-sidebar--larger-screen--width: 300px;
-$mobile__secondary-sidebar--width: 180px;
+$mobile__secondary-sidebar--width: 100%;
 
 
 $mobile__content-sidebar__wrap--width: 100%;
@@ -86,8 +86,8 @@ $content-both-sidebars--large-screen--width: 400px;
 $primary-sidebar--width: 360px;
 $primary-sidebar--larger-screen--width: 300px;
 $secondary-sidebar--width: 180px;
-$primary-sidebar--width: $max-width - $content--width - $gutter;
-$primary-sidebar--width: $base-width * 0.28125 + px;
+// $primary-sidebar--width: $max-width - $content--width - $gutter;
+// $primary-sidebar--width: $base-width * 0.28125 + px;
 
 $content-sidebar__wrap--width: 1060px;
 $content-sidebar__wrap--larger-screen--width: 920px;

@@ -1,29 +1,31 @@
 /* ### Primary Sidebar */
 
 .sidebar-primary {
-	// float: right;
-	padding: 2rem 0;
+
+	float: none;
 	width: $mobile__primary-sidebar--width;
 
 	.sidebar-content &,
 	.sidebar-sidebar-content & {
-		// float: left;
+		float: none;
 	}
 }
 
-
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 880px) {
 	.sidebar-primary {
+		padding: 2rem 0;
 		float: right;
-		width: $primary-sidebar--width;
+		width: 30%;
 
 		.sidebar-content &,
 		.sidebar-sidebar-content & {
 			float: left;
 		}
+	}
+}
 
-		// @media only screen and (max-width: $larger-screen ) {
-		// 	width: $primary-sidebar--larger-screen--width;
-		// }
+@media only screen and (min-width: 1600px) {
+	.sidebar-primary {
+		width: $primary-sidebar--width;
 	}
 }
