@@ -71,7 +71,7 @@ function adds_theme_supports() {
 		'genesis-after-entry-widget-area' => null,
 		'genesis-footer-widgets'          => 3,
 		'genesis-menus'                   => array(
-			'primary'   => __( 'After Header Menu', CHILD_TEXT_DOMAIN ),
+			'primary'   => __( 'Primary Navigation Menu', CHILD_TEXT_DOMAIN ),
 			'secondary' => __( 'Footer Menu', CHILD_TEXT_DOMAIN )
 		),
 	);

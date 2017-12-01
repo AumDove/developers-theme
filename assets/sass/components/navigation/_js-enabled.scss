@@ -2,7 +2,7 @@
 // .js Enabled Styles
 // =====================================
 
-// @media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1023px) {
     .js {
         .genesis-nav-menu {
             .sub-menu, .sub-menu a {
@@ -75,7 +75,7 @@
             color: $js-nav--focus-color;
         }
     }
-// }
+}
 
 
 
@@ -104,5 +104,5 @@ nav button {
         background-color: #fff;
         color: #c3251d;
     }
-    
+
 }

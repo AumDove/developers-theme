@@ -22,7 +22,7 @@ $landing-page__max-width--medium-screen: 800px;
 
 // Content Widths
 
-$mobile__content--width: 880px;
+$mobile__content--width: 100%;
 // $content--width: $base-width * 0.6875 + px;
 $mobile__content--larger-screen--width:800px;
 $mobile__content--large-screen--width:620px;
@@ -40,12 +40,12 @@ $mobile__header-right--laptop-width: 620px;
 
 // Sidebars
 
-$mobile__primary-sidebar--width: 360px;
+$mobile__primary-sidebar--width: 100%;
 $mobile__primary-sidebar--larger-screen--width: 300px;
 $mobile__secondary-sidebar--width: 180px;
 
 
-$mobile__content-sidebar__wrap--width: 1060px;
+$mobile__content-sidebar__wrap--width: 100%;
 $mobile__content-sidebar__wrap--larger-screen--width: 920px;
 $mobile__content-sidebar__wrap--large-screen--width: 740px;
 

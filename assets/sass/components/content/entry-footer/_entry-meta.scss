@@ -4,7 +4,7 @@
 .entry-footer {
     .entry-meta {
         border-top: 1px solid $entry-footer__meta--border-color;
-        padding-top: 24px;
+        padding-top: 2rem;
         margin-bottom: 0;
         @include rem( font-size, $mobile__footer__meta--font-size );
     }

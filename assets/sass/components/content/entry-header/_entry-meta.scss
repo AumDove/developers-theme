@@ -5,7 +5,7 @@
 
 .entry-header {
     .entry-meta {
-        margin-bottom: 24px;
+        margin-bottom: 2.4rem;
         @include rem( font-size, $mobile__header__meta--font-size );
     }
 }

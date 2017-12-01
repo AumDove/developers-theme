@@ -28,13 +28,13 @@ function load_nonadmin_files() {
 		'functions/formatting.php',
 		'functions/load-assets.php',
 		'functions/markup.php',
-//		'structure/archive.php',
+		'structure/archive.php',
 		'structure/comments.php',
-//		'structure/footer.php',
-//		'structure/header.php',
+		'structure/footer.php',
+		'structure/header.php',
 		'structure/menu.php',
 		'structure/post.php',
-//		'structure/sidebar.php',
+		'structure/sidebar.php',
         'components/customizer/customizer.php',
 	);
 	load_specified_files( $filenames );

@@ -2,6 +2,7 @@
 
 .content {
 	float: none;
+	padding: 2rem 0;
 	width: $mobile__content--width;
 
 	// @media only screen and (max-width: $larger-screen) {
@@ -30,7 +31,7 @@
 	.content-sidebar &,
 	.content-sidebar-sidebar &,
 	.sidebar-content-sidebar & {
-		float: left;
+		// float: left;
 	}
 
 	.full-width-content & {
