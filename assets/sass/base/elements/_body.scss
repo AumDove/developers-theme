@@ -3,7 +3,7 @@
 //=========================
 
 //
-// Mobile 
+// Mobile
 //=========================
 
 html {
@@ -22,6 +22,7 @@ body {
     > div {
         @include rem( font-size, $mobile__base-div--font-size );
     }
+
 }
 
 //=========================

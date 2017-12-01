@@ -3,16 +3,26 @@
 // Sidebars Base Styles
 // ========================
 
+.sidebar {
+    font-size: 16px;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+
+    .widget {
+        background-color: #fff;
+        padding: 3rem;
+    }
+}
+
 @media only screen and (min-width: 1600px) {
 
     .sidebar {
-        font-size: 16px;
-        font-size: 1.6rem;
-        margin-bottom: 40px;
+        font-size: 18px;
+        font-size: 1.8rem;
+        margin-bottom: 4rem;
 
         .widget {
-            background-color: #fff;
-            padding: 40px;
+            padding: 4rem;
         }
     }
 }
